@@ -2,10 +2,6 @@ body {
   background: url(../images/full-bloom.png);
 }
 
-img:hover {
-  border: 3px solid #1cb5e0;
-}
-
 .main {
   background: #000046; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -19,6 +15,7 @@ img:hover {
     #000046
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  margin-top: 5rem;
   padding: 3rem;
   margin-bottom: 5rem;
 }
@@ -29,6 +26,10 @@ img:hover {
 .tabs .tab a:focus,
 .tabs .tab a:focus.active {
   background: transparent;
+}
+
+.resume:hover {
+  border: 3px solid #1cb5e0;
 }
 
 .resume {
