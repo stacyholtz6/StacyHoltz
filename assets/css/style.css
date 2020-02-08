@@ -1,3 +1,28 @@
+body {
+  background: url(../images/full-bloom.png);
+}
+
+img:hover {
+  border: 3px solid #1cb5e0;
+}
+
+.main {
+  background: #000046; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1cb5e0,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
 .tabs .indicator {
   background-color: #1a237e;
 }
@@ -7,12 +32,7 @@
 }
 
 .resume {
-  border: 3px solid black;
+  border: 8px solid #000046;
   width: 100%;
   height: auto;
 }
-.main {
-  padding: 3rem;
-  margin-bottom: 5rem;
-}
-
