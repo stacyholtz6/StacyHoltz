@@ -37,3 +37,7 @@ body {
   width: 100%;
   height: auto;
 }
+
+.dots:hover {
+  color: #1cb5e0;
+}
